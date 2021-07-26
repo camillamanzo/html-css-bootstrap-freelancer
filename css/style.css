@@ -26,5 +26,12 @@
 
 .info.colored-bg{
     background-color: rgb(47, 47, 90);
-    height: 200px;
+    height: fit-content
+}
+
+div.white-line{
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    height: 5px;
 }
