@@ -6,6 +6,7 @@ h5{
 
 span i{
     font-size: 1.5em;
+    margin: 30px 0;
 }
 
 .wrapper{
@@ -22,20 +23,12 @@ span i{
     border-radius: 10px;
 }
 
-#jumbo{
-    height: fit-content;
+.form-control{
+    border: none;
 }
 
-#portfolio{
-    height: fit-content;
-}
-
-#about{
-    height: fit-content;
-}
-
-#contact{
-    height: fit-content;
+.dark-grey-bg{
+    background-color: rgb(28, 27, 37);
 }
 
 footer.wrapper{
@@ -49,11 +42,8 @@ div.line{
     height: 5px;
 }
 
+
 #portfolio .line,
 #contact .line{
     background-color: black;
-}
-
-.dark-grey-bg{
-    background-color: rgb(28, 27, 37);
 }
